@@ -21,7 +21,8 @@ const Hero = () => {
 
     }, []);
     return (
-        <div className="w-full mt-28">
+        <div className="max-w-7xl mx-auto">
+            <div className="w-full mt-28">
             <div>
                 <div
                     className="max-w-7xl mx-auto px-6 
@@ -87,6 +88,7 @@ const Hero = () => {
 
                 </div>
             </div>
+        </div>
         </div>
     )
 }
