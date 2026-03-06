@@ -29,7 +29,7 @@ const Hero = () => {
                          h-[300px] sm:h-[380px] md:h-[450px] lg:h-[500px]
                          bg-cover bg-center 
                          flex flex-col justify-center
-                         pl-4 sm:pl-8 md:pl-10"
+                         pl-4 sm:pl-8 md:pl-10 rounded-2xl" 
                     style={{ backgroundImage: `url(${abutech})` }}>
                     <h1 className="text-white 
                          text-xl sm:text-2xl md:text-3xl lg:text-4xl 
