@@ -5,6 +5,7 @@ import Texnology from './components/Texnology'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Services from './components/Services'
+import Team from './components/Team'
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const App = () => {
       <Hero/>
       <Texnology/>
       <Services/>
+      <Team/>
     </>
   )
 }
