@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Texnology from './components/Texnology'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Services from './components/Services'
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Texnology/>
+      <Services/>
     </>
   )
 }
