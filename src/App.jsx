@@ -6,6 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Services from './components/Services'
 import Team from './components/Team'
+import Process from './components/Process'
 
 const App = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const App = () => {
       <Texnology/>
       <Services/>
       <Team/>
+      <Process/>
     </>
   )
 }
